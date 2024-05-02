@@ -73,7 +73,7 @@ const pi = 3.14;
 
 // console.log(result);
 
-let likes = 10;
+// let likes = 10;
 // likes = likes + 1;
 // likes++;
 // likes--;
@@ -88,5 +88,27 @@ let likes = 10;
 // console.log(5 / 'hello');
 // console.log(5 * 'hello');
 
-let result = 'the blog has ' + likes + ' likes';
+// let result = 'the blog has ' + likes + ' likes';
+// console.log(result);
+
+// template strings
+const title = 'Best roads of 2024';
+const author = 'Harman';
+const likes = 30;
+
+// concatenation way
+// let result = 'The blog called ' + title + ' by ' + author + ' has ' + likes + ' likes ';
+// console.log(result);
+
+// template string way
+let result = `The blog called ${title} by ${author} has ${likes} likes`;
 console.log(result);
+
+// creating html templates
+let html = `
+  <h2>${title}</h2>
+  <p>${author}</p>
+  <span>This blog has ${likes} likes</span>
+`;
+
+console.log(html);
