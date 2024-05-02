@@ -45,3 +45,11 @@ console.log (result, fullName);
 
 let index = email.indexOf('@');
 console.log(index);
+
+// common string methods
+let email1 = 'email@example.com';
+// let result1 = email.lastIndexOf('e');
+// let result1 = email.slice(4, 10); # start from 4 and end at 10
+let result1 = email.substr(4, 10); // # start from 4 and outputs 10 characters in total
+
+console.log(result1);
