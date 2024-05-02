@@ -33,3 +33,8 @@ console.log(fullName);
 
 // getting characters
 console.log(fullName[0]);
+
+// string length
+console.log(fullName.length);
+
+// string methods
