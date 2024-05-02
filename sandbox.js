@@ -30,3 +30,6 @@ let lastName = 'Singh';
 
 let fullName = firstName + ' ' + lastName;
 console.log(fullName);
+
+// getting characters
+console.log(fullName[0]);
