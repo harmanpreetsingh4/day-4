@@ -38,3 +38,7 @@ console.log(fullName[0]);
 console.log(fullName.length);
 
 // string methods
+console.log(fullName.toUpperCase());
+
+let result = fullName.toLowerCase();
+console.log (result, fullName);
