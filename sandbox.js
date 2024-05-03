@@ -1,21 +1,21 @@
 // alert('hello, world');
 
-console.log(1);
-console.log(2);
+// console.log(1);
+// console.log(2);
 
-let age = 25;
-let year = 2019;
+// let age = 25;
+// let year = 2019;
 // log things to console
-console.log(age, year);
+// console.log(age, year);
 
-age = 30
-console.log(age);
+// age = 30
+// console.log(age);
 
-const points = 100;
-console.log(points);
+// const points = 100;
+// console.log(points);
 
-var score = 75;
-console.log(score);
+// var score = 75;
+// console.log(score);
 
 
 // strings
@@ -127,7 +127,13 @@ let ninjas = ['harman', 'shaun', 'ryu'];
 // let result = ninjas.join(',');
 // let result = ninjas.indexOf('ryu');
 // let result = ninjas.concat(['ken', 'crystal']);
-let result = ninjas.push('ken'); // #alters original value also
-result = ninjas.pop();
+// let result = ninjas.push('ken'); // #alters original value also
+// result = ninjas.pop();
 
-console.log(result);
+// console.log(result);
+
+// undefined/ null
+// let age = null;
+
+// console.log(age, age + 3, `the age is ${age}`);
+
