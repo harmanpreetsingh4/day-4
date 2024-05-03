@@ -137,3 +137,36 @@ let ninjas = ['harman', 'shaun', 'ryu'];
 
 // console.log(age, age + 3, `the age is ${age}`);
 
+
+// booleans and comparisons
+// console.log(true, false, "true", "false");
+
+// methods can return booleans
+// let names = ['hrmn', 'preet'];
+
+// let result = email.includes('@');
+// let result = names.includes('@');
+
+// console.log(result);
+
+// comparison operators
+// let age = 25;
+
+// console.log(age == 25);
+// console.log(age == 30);
+// console.log(age != 30);
+// console.log(age > 20);
+// console.log(age < 20);
+// console.log(age <= 25);
+// console.log(age >= 25);
+
+// let name = 'hrmn';
+
+// console.log(name == 'hrmn');
+// console.log(name == 'Hrmn');
+// console.log(name > 'Hrmn');
+
+// console.log(name > 'crystal');
+// console.log(name > 'Crystal');
+// console.log(name < 'crystal');
+// console.log(name < 'Crystal');
