@@ -113,7 +113,7 @@ const pi = 3.14;
 
 // console.log(html);
 
-let ninjas = ['harman', 'shaun', 'ryu'];
+// let ninjas = ['harman', 'shaun', 'ryu'];
 
 // ninjas[1] = 'ken';
 // console.log(ninjas[1]);
@@ -197,3 +197,19 @@ let ninjas = ['harman', 'shaun', 'ryu'];
 // let result = Boolean(0);
 // let result = Boolean('');
 // console.log(result, typeof result);
+
+// for loops
+
+// for(let i = 0; i < 5; i++){
+//     console.log(`in loop:`, i);
+// }
+
+// console.log('loop finished');
+
+// const names = ['shaun', 'mario', 'luigi'];
+
+// for(let i = 0; i < names.length; i++){
+    // console.log(names[i]);
+    // let html = `<div>${names[i]}</div>`;
+    // console.log(html);
+// }
