@@ -365,3 +365,13 @@
 // greet();
 
 // speak();
+
+// // arguments and parameters
+
+// const speak = function(name = 'hrmn', time = 'night'){
+//     console.log(`good ${time} ${name}`);
+// };
+
+// speak();
+// speak('preet');
+
