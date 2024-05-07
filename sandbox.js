@@ -234,8 +234,27 @@ const pi = 3.14;
 
 // do while loops 
 
-let i = 3;
-do{
-    console.log('val of i is:', i);
-    i++;
-} while(i < 5);
+// let i = 3;
+// do{
+//     console.log('val of i is:', i);
+//     i++;
+// } while(i < 5);
+
+// if statements
+// const age = 25;
+
+// if(age > 20){
+//     console.log('you are over 20 years old');
+// }
+
+// const ninjas = ['shaun', 'ryu', 'chun-li', 'yoshi'];
+
+// if(ninjas.length > 3){
+//     console.log("that's a lot of ninjas");
+// }
+
+// const password = 'password';
+
+// if(password.length >= 8){
+//     console.log('that password is long enough!');
+// }
