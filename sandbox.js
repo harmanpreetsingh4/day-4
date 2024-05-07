@@ -258,3 +258,14 @@ const pi = 3.14;
 // if(password.length >= 8){
 //     console.log('that password is long enough!');
 // }
+
+// if else statments
+// const password = 'p@ss';
+
+// if(password.length >= 12){
+//     console.log('that password is might be strong');
+// } else if(password.length >= 8){
+//     console.log('that password if long enough!');
+// } else{
+//     console.log('password is not long enough!');
+// }
