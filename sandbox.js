@@ -231,3 +231,11 @@ const pi = 3.14;
 //     console.log(names[i]);
 //     i++;
 // }
+
+// do while loops 
+
+let i = 3;
+do{
+    console.log('val of i is:', i);
+    i++;
+} while(i < 5);
