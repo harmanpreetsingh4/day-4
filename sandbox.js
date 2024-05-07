@@ -19,35 +19,35 @@
 
 
 // strings
-console.log('hello, world');
+// console.log('hello, world');
 
-let email = 'email@example.com';
-console.log(email);
+// let email = 'email@example.com';
+// console.log(email);
 
 // string concatenation
-let firstName = 'Harmanpreet';
-let lastName = 'Singh';
+// let firstName = 'Harmanpreet';
+// let lastName = 'Singh';
 
-let fullName = firstName + ' ' + lastName;
-console.log(fullName);
+// let fullName = firstName + ' ' + lastName;
+// console.log(fullName);
 
 // getting characters
-console.log(fullName[0]);
+// console.log(fullName[0]);
 
 // string length
-console.log(fullName.length);
+// console.log(fullName.length);
 
 // string methods
-console.log(fullName.toUpperCase());
+// console.log(fullName.toUpperCase());
 
 // let result = fullName.toLowerCase();
 // console.log (result, fullName);
 
-let index = email.indexOf('@');
-console.log(index);
+// let index = email.indexOf('@');
+// console.log(index);
 
 // common string methods
-let email1 = 'email@example.com';
+// let email1 = 'email@example.com';
 // let result = email.lastIndexOf('e');
 // let result = email.slice(4, 10); # start from 4 and end at 10
 // let result = email.substr(4, 10); # start from 4 and outputs 10 characters in total
@@ -56,8 +56,8 @@ let email1 = 'email@example.com';
 // console.log(result);
 
 // Numbers
-let radius = 10;
-const pi = 3.14;
+// let radius = 10;
+// const pi = 3.14;
 
 // console.log(radius, pi);
 // math operators +, -, *, /, **, %
@@ -335,17 +335,33 @@ const pi = 3.14;
 // }
 
 // variables & block scope 
-const age = 30;
+// const age = 30;
 
-if(true){
-    const age = 40;
-    const name = 'hrmn'
-    console.log('inside 1st code block:', age, name);
+// if(true){
+//     const age = 40;
+//     const name = 'hrmn'
+//     console.log('inside 1st code block:', age, name);
 
-    if(true){
-        const age = 50;
-        console.log('inside 2nd code block:', age);
-    }
-}
+//     if(true){
+//         const age = 50;
+//         console.log('inside 2nd code block:', age);
+//     }
+// }
 
-console.log('outside code block:', age, name);
+// console.log('outside code block:', age, name);
+
+
+// // function declaration
+// function greet(){
+//     console.log('hello there');
+// }
+
+// // function expression
+
+// const speak = function(){
+//     console.log('good day!');
+// };
+
+// greet();
+
+// speak();
