@@ -271,12 +271,23 @@ const pi = 3.14;
 // }
 
 // logical operators - OR || ; AND &&
-const password = 'p@ss';
+// const password = 'p@ss';
 
-if(password.length >= 12 && password.includes('@')){
-    console.log('password is mighty strong');
-} else if(password.length >= 8 || password.includes('@') && password.length >= 5){
-    console.log('password is strong enough!');
-} else{
-    console.log('password is not long enough!');
+// if(password.length >= 12 && password.includes('@')){
+//     console.log('password is mighty strong');
+// } else if(password.length >= 8 || password.includes('@') && password.length >= 5){
+//     console.log('password is strong enough!');
+// } else{
+//     console.log('password is not long enough!');
+// }
+
+// logical NOT (!)
+
+let user = false;
+
+if(!user){
+    console.log('you must be logged in to continue');
 }
+
+console.log(!true);
+console.log(!false);
