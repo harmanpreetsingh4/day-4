@@ -458,16 +458,38 @@
 // people.forEach(logPerson);
 
 // get a reference to the 'ul'
-const ul = document.querySelector('.people');
+// const ul = document.querySelector('.people');
 
-const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
+// const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
 
-let html = ``;
+// let html = ``;
 
-people.forEach(person => {
-    //create html template
-    html += `<li style="color: red">${person}</li>`;
-});
+// people.forEach(person => {
+//     //create html template
+//     html += `<li style="color: red">${person}</li>`;
+// });
 
-console.log(html);
-ul.innerHTML = html;
+// console.log(html);
+// ul.innerHTML = html;
+
+// object literals
+
+// let user = {
+//     name: 'crystal',
+//     age: 30,
+//     email: 'hrmn@hotmail.com',
+//     location: 'winnipeg',
+//     blogs: ['why mac & cheese rules', '10 things to make with marmite']
+// };
+
+// console.log(user);
+// console.log(user.name);
+
+// user.age = 35;
+// console.log(user.age);
+
+// console.log(user['location']);
+// user['name'] = 'hrmn';
+// console.log(user['name']);
+
+// console.log(typeof user);
