@@ -511,12 +511,22 @@
 // user.login();
 // user.logout();
 
+const blogs = [
+    { title: 'why mac and cheese rules', likes: 30},
+    { title: '10 things to make with marmite', likes: 50}
+];
+
+// console.log(blogs);
+
 let user = {
     name: 'crystal',
     age: 30,
     email: 'hrmn@hotmail.com',
     location: 'winnipeg',
-    blogs: ['why mac & cheese rules', '10 things to make with marmite'],
+    blogs: [
+        { title: 'why mac and cheese rules', likes: 30},
+        { title: '10 things to make with marmite', likes: 50}
+    ],
     login(){
         console.log('the user logged in');
     },
@@ -527,7 +537,7 @@ let user = {
         // console.log(this.blogs);
         console.log('this user has written the following blogs:');
         this.blogs.forEach(blog =>{
-            console.log(blog);
+            console.log(blog.title, blog.likes);
         })
     }
 };
